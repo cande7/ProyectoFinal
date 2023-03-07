@@ -1,0 +1,317 @@
+/* fuentes*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200&family=Titillium+Web:ital,wght@0,400;0,900;1,700&family=Xanh+Mono:ital@0;1&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Titillium+Web:ital,wght@0,400;0,900;1,700&family=Xanh+Mono:ital@0;1&family=Yellowtail&display=swap');
+
+*{
+    font-family:"Oswald";
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*seccion inicio*/
+.inicio{
+    background-image: url("fondo.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.inicio .contenido{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 20px;
+
+}
+.inicio .contenido header{
+   padding: 40px; 
+}
+/*menu lateral*/
+.inicio .contenido header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .contenido header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family:"lobster";
+    text-shadow:0 0 10px #744bc2;
+}
+.inicio .contenido header .logo .color{
+    color: #7c36ff;
+    font-family: "Lobster";
+}
+.inicio .contenido header .nav-bar{
+    position: fixed;
+    background-color:#7c36ff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido .info{
+    padding-bottom: 130px;
+}
+.info h1{
+    font-size: 3rem; 
+    letter-spacing:15px;
+
+}
+.info h2{
+    font-weight:normal ;
+    font-size: 20px;
+    margin-top: 2%;
+    letter-spacing: 5px;
+}
+.inicio .contenido .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: #744bc2;
+    border: 0.5px solid #744bc2;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height:40px ;
+    margin: 0 5px;
+    transition: .3s;
+
+}
+.inicio .contenido .info .redes a:hover{
+color: #fff;
+background-color: #744bc2;
+box-shadow:0 0 20px #fff ;
+}
+.inicio .contenido .foto{
+    position:relative 
+    ;
+}
+.inicio .contenido .foto img{
+    border-radius: 50%;
+    border: 3px solid #7c36ff;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+/*estilos generales*/
+.titulo-seccion{
+    font-family:"Lobster" ;
+    font-size: 1.5rem;
+}
+/*seccion sobre mi  */
+.sobremi{
+    background-color: #fff;
+    padding: 70px 0 100px 0;
+    text-align: center;
+}
+.sobremi .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi  h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi  p.especial{
+    color: #744bc2;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.sobremi  .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .fila .col{
+    width: 30%;
+}
+.sobremi .fila .col i{
+    color: #744bc2;
+    display: inline-block;
+    width: 40px;
+    height:40px ;
+    border: 2px solid #744bc2;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px;
+}
+/*seccion habilidades*/
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background-image: url("_DDSC0122.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color:#000;
+}
+.habilidades .contenido {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+  
+}
+.habilidades h3{
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.habilidades  .contenido .fila{
+    display:block;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.habilidades .contenido .fila .col{
+    width: 47%;
+    text-align: center;
+   
+}
+.habilidades .fila .col .cont-barra{
+    display: flex;
+    align-items:center ;
+   
+}
+.habilidades .barra{
+    display: flex;
+    border: 1px solid #7c36ff;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+    align-items: center;
+}
+.habilidades .barra .e{
+    background-color: #744bc2;
+    width: 20px;
+    height: 30px;
+    margin-block-end: 2px;
+    align-items: center;
+}
+
+/*seccion resumen*/
+.resumen{
+    background-color: #fff;
+    padding: 140px 0 100px 0;
+    text-align: center;
+
+}
+.resumen {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.resumen h2{
+    margin-top: 20px;
+}
+.resumen h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.resumen .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px ;
+}
+.resumen .info .col {
+    width: 45%;
+}
+.resumen  .info .col .titulo{
+    display: inline-block;
+    color: #7c36ff;
+    font-weight: bold;
+    border: 2px solid #7c36ff;
+    padding: 10px;
+}
+.resumen .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+.resumen .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #666;
+}
+.resumen .info .col table h4{
+    margin-top: 10px;
+}
+.resumen .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.resumen .info .col table p{
+    font-size: 14px;
+}
+.resumen .info .col table .promedio{
+    display: block;
+    color: #7c36ff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.resumen .info .col table .descripcion{
+    border-left: 1px solid #7c36ff;
+    padding-left: 20px;
+}
+/*seccion contacto*/
+.contacto{
+    background-color: #000;
+    padding: 140px 0 100px 0;
+    color: #fff;
+    text-align: center;
+}
+.contacto .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido .fila{
+    display: flex;
+    justify-content:space-around;
+}
+.contacto  .fila .col{
+ margin-top: 50px;
+}
+.contacto .fila .col h2 i{
+    color: #7c36ff;
+}
+
+
